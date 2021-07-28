@@ -1,0 +1,41 @@
+body{
+    background-size:cover;
+}
+.heading{
+    font-size: 23px;
+    width:100%;
+    margin:0px;
+}
+#start, #number_of_objects, #status{
+    font-size: 18px;
+}
+.copyright_footer{
+    position:fixed;
+    background-color: #6c757d;
+    bottom:0;
+    width:100%;
+    color: #f5f5f5;
+    line-height: 3;
+    text-align: center;
+}
+canvas{
+    border:2px solid white;
+    border-radius:10px;
+    margin-top: 130px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0% {box-shadow: 10px 10px 15px rgb(238, 95, 12);}
+    50% {box-shadow: 10px 10px 15px rgb(3, 221, 101);}
+    100% {box-shadow: 10px 10px 15px rgb(238, 95, 12);}
+}
+.note, .input_label{
+    color:black;
+    font-size: 17px;
+}
+input{
+    width:400px;
+    border-radius: 5px;
+}
